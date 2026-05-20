@@ -1,32 +1,18 @@
-# Que-la-fuerza-los-acompane
+# React + Vite
 
-**Trabajo en equipo:**
-- Silvina Gonzalez
-- Ezequiel Davila
-- Vitoria Caceres
-- Brayan Gonzalez
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Primeros pasos
+Currently, two official plugins are available:
 
-### Para clonar el repositorio:
-1. Abre GitHub Desktop
-2. File → Clone Repository
-3. Selecciona este repositorio
-4. Elige dónde guardarlo localmente
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Ramas de trabajo:
-- `main` - Rama principal (solo merges finales)
-- `develop` - Rama de desarrollo
-- `feature/*` - Ramas para tareas específicas
+## React Compiler
 
-### Flujo de trabajo:
-1. Crea una rama desde `develop`
-2. Trabaja en tu rama local
-3. Haz commits con mensajes claros
-4. Push a GitHub
-5. Crea un Pull Request para revisar
-6. Mergea cuando esté aprobado
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-## 📋 Descripción del proyecto
+Note: This will impact Vite dev & build performances.
 
-[Describe aquí qué es el proyecto]
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
